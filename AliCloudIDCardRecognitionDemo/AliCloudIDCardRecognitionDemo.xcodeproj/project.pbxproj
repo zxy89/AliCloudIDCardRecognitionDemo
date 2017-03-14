@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		409EFBFE65945D837E05B05B /* libPods-AliCloudIDCardRecognitionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 662FD11EF5838634D6261E8E /* libPods-AliCloudIDCardRecognitionDemo.a */; };
+		4E33DAE91E77C68F00F55A65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E33DAE81E77C68F00F55A65 /* main.m */; };
+		4E33DAEC1E77C68F00F55A65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E33DAEB1E77C68F00F55A65 /* AppDelegate.m */; };
+		4E33DAEF1E77C68F00F55A65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E33DAEE1E77C68F00F55A65 /* ViewController.m */; };
+		4E33DAF21E77C68F00F55A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E33DAF01E77C68F00F55A65 /* Main.storyboard */; };
+		4E33DAF41E77C68F00F55A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E33DAF31E77C68F00F55A65 /* Assets.xcassets */; };
+		4E33DAF71E77C68F00F55A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E33DAF51E77C68F00F55A65 /* LaunchScreen.storyboard */; };
+		4E33DB021E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E33DB011E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoTests.m */; };
+		4E33DB0D1E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E33DB0C1E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoUITests.m */; };
+		4E33DB2E1E77C86600F55A65 /* PhotoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E33DB1C1E77C86600F55A65 /* PhotoTool.m */; };
+		4E33DB2F1E77C86600F55A65 /* HttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E33DB291E77C86600F55A65 /* HttpUtil.m */; };
+		4E33DB301E77C86600F55A65 /* SignUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E33DB2B1E77C86600F55A65 /* SignUtil.m */; };
+		4E33DB311E77C86600F55A65 /* XYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E33DB2D1E77C86600F55A65 /* XYAlertController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E33DAFE1E77C68F00F55A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E33DADC1E77C68F00F55A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E33DAE31E77C68F00F55A65;
+			remoteInfo = AliCloudIDCardRecognitionDemo;
+		};
+		4E33DB091E77C68F00F55A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E33DADC1E77C68F00F55A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E33DAE31E77C68F00F55A65;
+			remoteInfo = AliCloudIDCardRecognitionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D21DED13B57B9B93A2C2198 /* Pods-AliCloudIDCardRecognitionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliCloudIDCardRecognitionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliCloudIDCardRecognitionDemo/Pods-AliCloudIDCardRecognitionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4E33DAE41E77C68F00F55A65 /* AliCloudIDCardRecognitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliCloudIDCardRecognitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E33DAE81E77C68F00F55A65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E33DAEA1E77C68F00F55A65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E33DAEB1E77C68F00F55A65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E33DAED1E77C68F00F55A65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E33DAEE1E77C68F00F55A65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E33DAF11E77C68F00F55A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E33DAF31E77C68F00F55A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E33DAF61E77C68F00F55A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E33DAF81E77C68F00F55A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E33DAFD1E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliCloudIDCardRecognitionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E33DB011E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliCloudIDCardRecognitionDemoTests.m; sourceTree = "<group>"; };
+		4E33DB031E77C68F00F55A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E33DB081E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliCloudIDCardRecognitionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E33DB0C1E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliCloudIDCardRecognitionDemoUITests.m; sourceTree = "<group>"; };
+		4E33DB0E1E77C68F00F55A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E33DB1B1E77C86600F55A65 /* PhotoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTool.h; sourceTree = "<group>"; };
+		4E33DB1C1E77C86600F55A65 /* PhotoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTool.m; sourceTree = "<group>"; };
+		4E33DB1D1E77C86600F55A65 /* PrecompiledHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrecompiledHeader.pch; sourceTree = "<group>"; };
+		4E33DB1F1E77C86600F55A65 /* AppConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfiguration.h; sourceTree = "<group>"; };
+		4E33DB201E77C86600F55A65 /* AppInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInclude.h; sourceTree = "<group>"; };
+		4E33DB221E77C86600F55A65 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4E33DB231E77C86600F55A65 /* ContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentType.h; sourceTree = "<group>"; };
+		4E33DB241E77C86600F55A65 /* HttpHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpHeader.h; sourceTree = "<group>"; };
+		4E33DB251E77C86600F55A65 /* HttpMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpMethod.h; sourceTree = "<group>"; };
+		4E33DB261E77C86600F55A65 /* HttpSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpSchema.h; sourceTree = "<group>"; };
+		4E33DB271E77C86600F55A65 /* SystemHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemHeader.h; sourceTree = "<group>"; };
+		4E33DB281E77C86600F55A65 /* HttpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpUtil.h; sourceTree = "<group>"; };
+		4E33DB291E77C86600F55A65 /* HttpUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpUtil.m; sourceTree = "<group>"; };
+		4E33DB2A1E77C86600F55A65 /* SignUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUtil.h; sourceTree = "<group>"; };
+		4E33DB2B1E77C86600F55A65 /* SignUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUtil.m; sourceTree = "<group>"; };
+		4E33DB2C1E77C86600F55A65 /* XYAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYAlertController.h; sourceTree = "<group>"; };
+		4E33DB2D1E77C86600F55A65 /* XYAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYAlertController.m; sourceTree = "<group>"; };
+		662FD11EF5838634D6261E8E /* libPods-AliCloudIDCardRecognitionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliCloudIDCardRecognitionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D353E2A8E4B79FB7A0F97B /* Pods-AliCloudIDCardRecognitionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliCloudIDCardRecognitionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliCloudIDCardRecognitionDemo/Pods-AliCloudIDCardRecognitionDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E33DAE11E77C68F00F55A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409EFBFE65945D837E05B05B /* libPods-AliCloudIDCardRecognitionDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E33DAFA1E77C68F00F55A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E33DB051E77C68F00F55A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E33DADB1E77C68F00F55A65 = {
+			isa = PBXGroup;
+			children = (
+				4E33DAE61E77C68F00F55A65 /* AliCloudIDCardRecognitionDemo */,
+				4E33DB001E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoTests */,
+				4E33DB0B1E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoUITests */,
+				4E33DAE51E77C68F00F55A65 /* Products */,
+				A41A727E5D67DC3864B9EFD2 /* Pods */,
+				8997967083097F18414987F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E33DAE51E77C68F00F55A65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E33DAE41E77C68F00F55A65 /* AliCloudIDCardRecognitionDemo.app */,
+				4E33DAFD1E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoTests.xctest */,
+				4E33DB081E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E33DAE61E77C68F00F55A65 /* AliCloudIDCardRecognitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4E33DB1A1E77C86600F55A65 /* Libs */,
+				4E33DAEA1E77C68F00F55A65 /* AppDelegate.h */,
+				4E33DAEB1E77C68F00F55A65 /* AppDelegate.m */,
+				4E33DAED1E77C68F00F55A65 /* ViewController.h */,
+				4E33DAEE1E77C68F00F55A65 /* ViewController.m */,
+				4E33DAF01E77C68F00F55A65 /* Main.storyboard */,
+				4E33DAF31E77C68F00F55A65 /* Assets.xcassets */,
+				4E33DAF51E77C68F00F55A65 /* LaunchScreen.storyboard */,
+				4E33DAF81E77C68F00F55A65 /* Info.plist */,
+				4E33DAE71E77C68F00F55A65 /* Supporting Files */,
+			);
+			path = AliCloudIDCardRecognitionDemo;
+			sourceTree = "<group>";
+		};
+		4E33DAE71E77C68F00F55A65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E33DAE81E77C68F00F55A65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E33DB001E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E33DB011E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoTests.m */,
+				4E33DB031E77C68F00F55A65 /* Info.plist */,
+			);
+			path = AliCloudIDCardRecognitionDemoTests;
+			sourceTree = "<group>";
+		};
+		4E33DB0B1E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E33DB0C1E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoUITests.m */,
+				4E33DB0E1E77C68F00F55A65 /* Info.plist */,
+			);
+			path = AliCloudIDCardRecognitionDemoUITests;
+			sourceTree = "<group>";
+		};
+		4E33DB1A1E77C86600F55A65 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				4E33DB1E1E77C86600F55A65 /* SDK */,
+				4E33DB1B1E77C86600F55A65 /* PhotoTool.h */,
+				4E33DB1C1E77C86600F55A65 /* PhotoTool.m */,
+				4E33DB1D1E77C86600F55A65 /* PrecompiledHeader.pch */,
+				4E33DB2C1E77C86600F55A65 /* XYAlertController.h */,
+				4E33DB2D1E77C86600F55A65 /* XYAlertController.m */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		4E33DB1E1E77C86600F55A65 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				4E33DB1F1E77C86600F55A65 /* AppConfiguration.h */,
+				4E33DB201E77C86600F55A65 /* AppInclude.h */,
+				4E33DB211E77C86600F55A65 /* Constant */,
+				4E33DB281E77C86600F55A65 /* HttpUtil.h */,
+				4E33DB291E77C86600F55A65 /* HttpUtil.m */,
+				4E33DB2A1E77C86600F55A65 /* SignUtil.h */,
+				4E33DB2B1E77C86600F55A65 /* SignUtil.m */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		4E33DB211E77C86600F55A65 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				4E33DB221E77C86600F55A65 /* Constants.h */,
+				4E33DB231E77C86600F55A65 /* ContentType.h */,
+				4E33DB241E77C86600F55A65 /* HttpHeader.h */,
+				4E33DB251E77C86600F55A65 /* HttpMethod.h */,
+				4E33DB261E77C86600F55A65 /* HttpSchema.h */,
+				4E33DB271E77C86600F55A65 /* SystemHeader.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		8997967083097F18414987F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				662FD11EF5838634D6261E8E /* libPods-AliCloudIDCardRecognitionDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A41A727E5D67DC3864B9EFD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D21DED13B57B9B93A2C2198 /* Pods-AliCloudIDCardRecognitionDemo.debug.xcconfig */,
+				C9D353E2A8E4B79FB7A0F97B /* Pods-AliCloudIDCardRecognitionDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E33DAE31E77C68F00F55A65 /* AliCloudIDCardRecognitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E33DB111E77C68F00F55A65 /* Build configuration list for PBXNativeTarget "AliCloudIDCardRecognitionDemo" */;
+			buildPhases = (
+				8BF78746FB546080D266A738 /* [CP] Check Pods Manifest.lock */,
+				4E33DAE01E77C68F00F55A65 /* Sources */,
+				4E33DAE11E77C68F00F55A65 /* Frameworks */,
+				4E33DAE21E77C68F00F55A65 /* Resources */,
+				D29538AA1D5CF08DD2819549 /* [CP] Embed Pods Frameworks */,
+				859C68D1F600639BB8050758 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliCloudIDCardRecognitionDemo;
+			productName = AliCloudIDCardRecognitionDemo;
+			productReference = 4E33DAE41E77C68F00F55A65 /* AliCloudIDCardRecognitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E33DAFC1E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E33DB141E77C68F00F55A65 /* Build configuration list for PBXNativeTarget "AliCloudIDCardRecognitionDemoTests" */;
+			buildPhases = (
+				4E33DAF91E77C68F00F55A65 /* Sources */,
+				4E33DAFA1E77C68F00F55A65 /* Frameworks */,
+				4E33DAFB1E77C68F00F55A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E33DAFF1E77C68F00F55A65 /* PBXTargetDependency */,
+			);
+			name = AliCloudIDCardRecognitionDemoTests;
+			productName = AliCloudIDCardRecognitionDemoTests;
+			productReference = 4E33DAFD1E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E33DB071E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E33DB171E77C68F00F55A65 /* Build configuration list for PBXNativeTarget "AliCloudIDCardRecognitionDemoUITests" */;
+			buildPhases = (
+				4E33DB041E77C68F00F55A65 /* Sources */,
+				4E33DB051E77C68F00F55A65 /* Frameworks */,
+				4E33DB061E77C68F00F55A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E33DB0A1E77C68F00F55A65 /* PBXTargetDependency */,
+			);
+			name = AliCloudIDCardRecognitionDemoUITests;
+			productName = AliCloudIDCardRecognitionDemoUITests;
+			productReference = 4E33DB081E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E33DADC1E77C68F00F55A65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zxy;
+				TargetAttributes = {
+					4E33DAE31E77C68F00F55A65 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W2V5KJ2T7N;
+						ProvisioningStyle = Automatic;
+					};
+					4E33DAFC1E77C68F00F55A65 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E33DAE31E77C68F00F55A65;
+					};
+					4E33DB071E77C68F00F55A65 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E33DAE31E77C68F00F55A65;
+					};
+				};
+			};
+			buildConfigurationList = 4E33DADF1E77C68F00F55A65 /* Build configuration list for PBXProject "AliCloudIDCardRecognitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E33DADB1E77C68F00F55A65;
+			productRefGroup = 4E33DAE51E77C68F00F55A65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E33DAE31E77C68F00F55A65 /* AliCloudIDCardRecognitionDemo */,
+				4E33DAFC1E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoTests */,
+				4E33DB071E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E33DAE21E77C68F00F55A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E33DAF71E77C68F00F55A65 /* LaunchScreen.storyboard in Resources */,
+				4E33DAF41E77C68F00F55A65 /* Assets.xcassets in Resources */,
+				4E33DAF21E77C68F00F55A65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E33DAFB1E77C68F00F55A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E33DB061E77C68F00F55A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		859C68D1F600639BB8050758 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AliCloudIDCardRecognitionDemo/Pods-AliCloudIDCardRecognitionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BF78746FB546080D266A738 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D29538AA1D5CF08DD2819549 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AliCloudIDCardRecognitionDemo/Pods-AliCloudIDCardRecognitionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E33DAE01E77C68F00F55A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E33DAEF1E77C68F00F55A65 /* ViewController.m in Sources */,
+				4E33DAEC1E77C68F00F55A65 /* AppDelegate.m in Sources */,
+				4E33DB311E77C86600F55A65 /* XYAlertController.m in Sources */,
+				4E33DB2E1E77C86600F55A65 /* PhotoTool.m in Sources */,
+				4E33DAE91E77C68F00F55A65 /* main.m in Sources */,
+				4E33DB301E77C86600F55A65 /* SignUtil.m in Sources */,
+				4E33DB2F1E77C86600F55A65 /* HttpUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E33DAF91E77C68F00F55A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E33DB021E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E33DB041E77C68F00F55A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E33DB0D1E77C68F00F55A65 /* AliCloudIDCardRecognitionDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E33DAFF1E77C68F00F55A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E33DAE31E77C68F00F55A65 /* AliCloudIDCardRecognitionDemo */;
+			targetProxy = 4E33DAFE1E77C68F00F55A65 /* PBXContainerItemProxy */;
+		};
+		4E33DB0A1E77C68F00F55A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E33DAE31E77C68F00F55A65 /* AliCloudIDCardRecognitionDemo */;
+			targetProxy = 4E33DB091E77C68F00F55A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E33DAF01E77C68F00F55A65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E33DAF11E77C68F00F55A65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E33DAF51E77C68F00F55A65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E33DAF61E77C68F00F55A65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E33DB0F1E77C68F00F55A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E33DB101E77C68F00F55A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E33DB121E77C68F00F55A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D21DED13B57B9B93A2C2198 /* Pods-AliCloudIDCardRecognitionDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W2V5KJ2T7N;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Libs/PrecompiledHeader.pch";
+				INFOPLIST_FILE = AliCloudIDCardRecognitionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AliCloudIDCardRecognitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E33DB131E77C68F00F55A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D353E2A8E4B79FB7A0F97B /* Pods-AliCloudIDCardRecognitionDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W2V5KJ2T7N;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Libs/PrecompiledHeader.pch";
+				INFOPLIST_FILE = AliCloudIDCardRecognitionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AliCloudIDCardRecognitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E33DB151E77C68F00F55A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AliCloudIDCardRecognitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AliCloudIDCardRecognitionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliCloudIDCardRecognitionDemo.app/AliCloudIDCardRecognitionDemo";
+			};
+			name = Debug;
+		};
+		4E33DB161E77C68F00F55A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AliCloudIDCardRecognitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AliCloudIDCardRecognitionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliCloudIDCardRecognitionDemo.app/AliCloudIDCardRecognitionDemo";
+			};
+			name = Release;
+		};
+		4E33DB181E77C68F00F55A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AliCloudIDCardRecognitionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AliCloudIDCardRecognitionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AliCloudIDCardRecognitionDemo;
+			};
+			name = Debug;
+		};
+		4E33DB191E77C68F00F55A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AliCloudIDCardRecognitionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AliCloudIDCardRecognitionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AliCloudIDCardRecognitionDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E33DADF1E77C68F00F55A65 /* Build configuration list for PBXProject "AliCloudIDCardRecognitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E33DB0F1E77C68F00F55A65 /* Debug */,
+				4E33DB101E77C68F00F55A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E33DB111E77C68F00F55A65 /* Build configuration list for PBXNativeTarget "AliCloudIDCardRecognitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E33DB121E77C68F00F55A65 /* Debug */,
+				4E33DB131E77C68F00F55A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E33DB141E77C68F00F55A65 /* Build configuration list for PBXNativeTarget "AliCloudIDCardRecognitionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E33DB151E77C68F00F55A65 /* Debug */,
+				4E33DB161E77C68F00F55A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E33DB171E77C68F00F55A65 /* Build configuration list for PBXNativeTarget "AliCloudIDCardRecognitionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E33DB181E77C68F00F55A65 /* Debug */,
+				4E33DB191E77C68F00F55A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E33DADC1E77C68F00F55A65 /* Project object */;
+}

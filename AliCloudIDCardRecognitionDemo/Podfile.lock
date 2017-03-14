@@ -1,0 +1,18 @@
+PODS:
+  - LCProgressHUD (1.0.6):
+    - MBProgressHUD (~> 0.9.1)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.13)
+
+DEPENDENCIES:
+  - LCProgressHUD
+  - MJExtension
+
+SPEC CHECKSUMS:
+  LCProgressHUD: 230627658e1d23a26f557aa8fad3be8181245d85
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+
+PODFILE CHECKSUM: 1dbfc986a43fba4466e5653e20d986e2403e2c52
+
+COCOAPODS: 1.1.0.beta.1
