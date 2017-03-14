@@ -1,0 +1,992 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026CCF569A2125FCB0EE8F152731259E /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF498968B7804018AF28B06DCBDE9 /* NSObject+MJClass.m */; };
+		0F7EC02E944F8719A5EBDC9D29F9E99F /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = E086AB58D86F556CF51D8E91D68C9CAB /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F93BDAB7098ACA5FC721A8874EE66C9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827BAE921A69715BA5D43430BF85A9F /* QuartzCore.framework */; };
+		100106D74442BD33655A66838578A15B /* LCProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C69A8BD41388F0FD2317782880F665 /* LCProgressHUD-dummy.m */; };
+		1090274A663782D5F91FAAE85C628227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */; };
+		118227C43F283C87130BEE2BFABC7EBD /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 609A3E73C395BD2B3665B9EB0D0F1A5D /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13695CE9BF36F26CA806C5CD2D6ADECA /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BB7E7B88BD2F46AFA874E3D97D7113 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D9B734DF8222AF12C9137123F4D53D /* LCProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 95549F539956BC2CFEDC2FD1230FC55E /* LCProgressHUD.m */; };
+		2465490EA6D467DBC8BC66493DA6FFC1 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D976F32DA6B3E8049870B54D652AA86 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC27528C64733F5C0AB4B1B6EE35E8C /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C42AC68B6A71BB0C470E83A1B72154 /* MJExtension-dummy.m */; };
+		322EBCB4F5A9E698AA605E040E35DC25 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 928903880FF22E1866B500C2E94C1E86 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		366A613AE07EAA35B5789F6123FB48AF /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4FD49623C93212498F4297ACFC50D4 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		366C2F21C05A9E7EF31CE8753146A246 /* LCProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB8768703558FE641A4ABF279EA650B /* LCProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41C009BD0011075848D845CA99DC479C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E4E1489F6D8A2A08DFCE2EC8869F4B /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4330562BA1A299CBD37F4602B1A4C95A /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD92D6173D251798E286228C25A0E3F /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C61B999DF40B1B00449A7AFCBB61D5E /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D644DCC526838D9F8C72AC4909D5F8 /* MJPropertyType.m */; };
+		5FAB4F62E5D48566D90F20EA876F0242 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5ED001AEB43A33B2D1F84E6714AE68 /* MBProgressHUD-dummy.m */; };
+		65ED43E8E96D716F4B3C93B112E8BE5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */; };
+		710DA5E9C44A1BC56CD13FC1F2D6E099 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C118D5BF853B6192902EF6B0332521 /* MJFoundation.m */; };
+		86D3C675657C8AFE6F73E5D0F209E990 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F94484C109B20104AFD31AB28AAEE4B /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8901FCDC69845F7ADAC74DD036F09123 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = A308DD6E3AD65AA980C274DA8FC3F092 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91CAC2B69903F5F3D7C25A95CA77A600 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = C86B88B48E229A3434FF7BE9C131517C /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95E10CE687CFFEE4870F08CE0679CF2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FE94CBCE30CCEC7711ED0A8D48F3D9 /* CoreGraphics.framework */; };
+		977BC2C497D84849219A3694EB32274C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */; };
+		A0AD231A11A54F59BC8D486946D2928B /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3067F475DDE3DA7ACA32EE80A7290070 /* MJProperty.m */; };
+		A10CB0C0CF2F4F480E9902D043744CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */; };
+		A60A4B3054017180C0B6C7B24E651E0A /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D617FCBA78903614EB00C8E4D311E66 /* MJPropertyKey.m */; };
+		B1D1C86786A47891E207EDDDA43BFDB3 /* Pods-AliCloudIDCardRecognitionDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F6EDC272C62C93C9224EC0137BD9F5 /* Pods-AliCloudIDCardRecognitionDemo-dummy.m */; };
+		B9C36A50069E553B4B8538E291864BB5 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = B59D120D01BF293044B6C67AA595E504 /* NSObject+MJKeyValue.m */; };
+		C16442D25F534C602780E6FD44C6A698 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 8795C40AE8783C7F8AD4702811BF679E /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C37D2F9A62232C28DAF2E51CF1364F21 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D59A5BE360C6327ADB2AB429E9C880C5 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA1EB1DB5C89E63A19ED05C55E35AF23 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE99CC26CB890216F4B4052B27003CF /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD4CF5F1389281BCE40DF30AD1945D03 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 62598B766097D1E97042AB9B12828152 /* NSObject+MJProperty.m */; };
+		CDA4DB994BAC351F4CD71EC283055E57 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0C718347FE04683B3F64A2D4E27B57 /* NSObject+MJCoding.m */; };
+		D1D1F11808DACCA88C55636F85A58FD8 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18933D4181EF7DF08B7B31AA78A73CCA /* NSString+MJExtension.m */; };
+		D292309F05A2EF270E728CE73E60F3C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */; };
+		DAF1CE8756287B465E0DE48A6133FB79 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 73976DE015C3423761386C542F400550 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF61CA85C5E7FBDA1FEAEE6CEDA1F6E6 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A72B8A577F6142D83BF3A6C522668FFB /* Toast-dummy.m */; };
+		FDF30F97BDF167F0B956DED0F2C8DA69 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF46DA8674BE47C0999858D61288E82 /* MJExtensionConst.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A968862237DCB29AF2BAAAC62D17984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73002FBC7784040536D642E827BC9F45;
+			remoteInfo = MBProgressHUD;
+		};
+		B7E1A11DD3857B67B98B413FF113919A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDBD7D72006DDADAEFD89C247C6694B4;
+			remoteInfo = LCProgressHUD;
+		};
+		CD40536C1E85B56A3686905F24808824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73002FBC7784040536D642E827BC9F45;
+			remoteInfo = MBProgressHUD;
+		};
+		CEC0D547A22C28BADBACC9446F9C6F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EAB3E42EF957541E6C3C76D35FD008E;
+			remoteInfo = MJExtension;
+		};
+		E02FBAC35371D488AA57563F7CF59F19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9259AB5694DA9D415540B2FEFF9B041E;
+			remoteInfo = Toast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0827BAE921A69715BA5D43430BF85A9F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0DC23468E581162C77D3A83BA6C2C6F1 /* libToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1145988B5CB2F69DFC0656F3EE41A62C /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		18933D4181EF7DF08B7B31AA78A73CCA /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		1B7FF498968B7804018AF28B06DCBDE9 /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		2BC460F8C270BF31745F7BF6F2B7D34A /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		2C5ED001AEB43A33B2D1F84E6714AE68 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		2D976F32DA6B3E8049870B54D652AA86 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		3067F475DDE3DA7ACA32EE80A7290070 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		34C42AC68B6A71BB0C470E83A1B72154 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		3B0C718347FE04683B3F64A2D4E27B57 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		3BF46DA8674BE47C0999858D61288E82 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		3FD92D6173D251798E286228C25A0E3F /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		609A3E73C395BD2B3665B9EB0D0F1A5D /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		61FE94CBCE30CCEC7711ED0A8D48F3D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		62598B766097D1E97042AB9B12828152 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		64D644DCC526838D9F8C72AC4909D5F8 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		70BB7E7B88BD2F46AFA874E3D97D7113 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		71F24A8EB1A3D25AB31C2BD260365CAD /* LCProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LCProgressHUD.bundle; path = LCProgressHUD/LCProgressHUD.bundle; sourceTree = "<group>"; };
+		72785215F2E2E027BF7D4989FCFC23D5 /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73976DE015C3423761386C542F400550 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		76C590BE568CD29E08997BA85147DC49 /* LCProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		7BB8768703558FE641A4ABF279EA650B /* LCProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCProgressHUD.h; path = LCProgressHUD/LCProgressHUD.h; sourceTree = "<group>"; };
+		7E5F52CB80A18E89CAED217C34BF7CF4 /* Pods-AliCloudIDCardRecognitionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliCloudIDCardRecognitionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7E68DD5CE0088B9E5A67C4BD585D85F6 /* libPods-AliCloudIDCardRecognitionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliCloudIDCardRecognitionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F94484C109B20104AFD31AB28AAEE4B /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		8795C40AE8783C7F8AD4702811BF679E /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		8D617FCBA78903614EB00C8E4D311E66 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
+		928903880FF22E1866B500C2E94C1E86 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95549F539956BC2CFEDC2FD1230FC55E /* LCProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCProgressHUD.m; path = LCProgressHUD/LCProgressHUD.m; sourceTree = "<group>"; };
+		9FE99CC26CB890216F4B4052B27003CF /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		A2C118D5BF853B6192902EF6B0332521 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		A308DD6E3AD65AA980C274DA8FC3F092 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		A4E4E1489F6D8A2A08DFCE2EC8869F4B /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		A72B8A577F6142D83BF3A6C522668FFB /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
+		A8B4972D92FEC07A36382B49618C6CB4 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		B3C69A8BD41388F0FD2317782880F665 /* LCProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		B53E7FB5C30AE9151D3187470B68EF67 /* libLCProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLCProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59D120D01BF293044B6C67AA595E504 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		C61BD9BDD154B99E4B2BD35A439037E5 /* Pods-AliCloudIDCardRecognitionDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliCloudIDCardRecognitionDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C86B88B48E229A3434FF7BE9C131517C /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		CA4FD49623C93212498F4297ACFC50D4 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		CEACB61A1778F9A1177DAFF0E828F499 /* Pods-AliCloudIDCardRecognitionDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliCloudIDCardRecognitionDemo-resources.sh"; sourceTree = "<group>"; };
+		D03F72EAB26799CEC4A277C6ECFB93D4 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C6A33A26F05D314B789F8820872B5F /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		D59A5BE360C6327ADB2AB429E9C880C5 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		DA729416BB68EFEF1BB9A2FF5A6447D8 /* Pods-AliCloudIDCardRecognitionDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliCloudIDCardRecognitionDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E086AB58D86F556CF51D8E91D68C9CAB /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		E5F6EDC272C62C93C9224EC0137BD9F5 /* Pods-AliCloudIDCardRecognitionDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliCloudIDCardRecognitionDemo-dummy.m"; sourceTree = "<group>"; };
+		E9F81CD511C8CDBA4D8CBA674AB89BB3 /* Pods-AliCloudIDCardRecognitionDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliCloudIDCardRecognitionDemo-frameworks.sh"; sourceTree = "<group>"; };
+		EE8D4FBC65776D6DCF0FAE06CFA89DFC /* LCProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCProgressHUD.xcconfig; sourceTree = "<group>"; };
+		F0FDC662829D073AD461832936EAB09F /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
+		FC5689101AA1286559A75948E1B62F0F /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
+		FE98CD61C6FD752361EDF42E02C1D8F8 /* Pods-AliCloudIDCardRecognitionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliCloudIDCardRecognitionDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6140AEDBA050A64384B5C684335D8E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10CB0C0CF2F4F480E9902D043744CE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A4C655A4EE8959EF262F70F38241A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1090274A663782D5F91FAAE85C628227 /* Foundation.framework in Frameworks */,
+				0F93BDAB7098ACA5FC721A8874EE66C9 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747242460B935FEA3E994652BD8C2E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65ED43E8E96D716F4B3C93B112E8BE5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43CDF1C77A88698EEBE9432F57AB2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E10CE687CFFEE4870F08CE0679CF2D /* CoreGraphics.framework in Frameworks */,
+				D292309F05A2EF270E728CE73E60F3C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7FD6579E8B1801FA82A345E8A3AF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977BC2C497D84849219A3694EB32274C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B773CB89711902D049A5E4034DCA596 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				61FE94CBCE30CCEC7711ED0A8D48F3D9 /* CoreGraphics.framework */,
+				13FA8104D69E4B6550EFF77E38670F3E /* Foundation.framework */,
+				0827BAE921A69715BA5D43430BF85A9F /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0D9CF7ABCB74E96C5B38DC616EBDF244 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A5A8E5EC4F657D35FB1585547463584 /* LCProgressHUD */,
+				8773B7051D7193D0F434AD48235893DD /* MBProgressHUD */,
+				7028AAF256D41049526F636446C65A2E /* MJExtension */,
+				B101A3EE3EF8A2FE42D86E623A31D83F /* Toast */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B773CB89711902D049A5E4034DCA596 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		373FD3836C69E9E290F28CBD21E48DCC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BC460F8C270BF31745F7BF6F2B7D34A /* MBProgressHUD.xcconfig */,
+				2C5ED001AEB43A33B2D1F84E6714AE68 /* MBProgressHUD-dummy.m */,
+				1145988B5CB2F69DFC0656F3EE41A62C /* MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		453ED928AD66E372EF91F1B12AC86018 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71F24A8EB1A3D25AB31C2BD260365CAD /* LCProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7028AAF256D41049526F636446C65A2E /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D59A5BE360C6327ADB2AB429E9C880C5 /* MJExtension.h */,
+				E086AB58D86F556CF51D8E91D68C9CAB /* MJExtensionConst.h */,
+				3BF46DA8674BE47C0999858D61288E82 /* MJExtensionConst.m */,
+				70BB7E7B88BD2F46AFA874E3D97D7113 /* MJFoundation.h */,
+				A2C118D5BF853B6192902EF6B0332521 /* MJFoundation.m */,
+				73976DE015C3423761386C542F400550 /* MJProperty.h */,
+				3067F475DDE3DA7ACA32EE80A7290070 /* MJProperty.m */,
+				CA4FD49623C93212498F4297ACFC50D4 /* MJPropertyKey.h */,
+				8D617FCBA78903614EB00C8E4D311E66 /* MJPropertyKey.m */,
+				C86B88B48E229A3434FF7BE9C131517C /* MJPropertyType.h */,
+				64D644DCC526838D9F8C72AC4909D5F8 /* MJPropertyType.m */,
+				9FE99CC26CB890216F4B4052B27003CF /* NSObject+MJClass.h */,
+				1B7FF498968B7804018AF28B06DCBDE9 /* NSObject+MJClass.m */,
+				609A3E73C395BD2B3665B9EB0D0F1A5D /* NSObject+MJCoding.h */,
+				3B0C718347FE04683B3F64A2D4E27B57 /* NSObject+MJCoding.m */,
+				3FD92D6173D251798E286228C25A0E3F /* NSObject+MJKeyValue.h */,
+				B59D120D01BF293044B6C67AA595E504 /* NSObject+MJKeyValue.m */,
+				8795C40AE8783C7F8AD4702811BF679E /* NSObject+MJProperty.h */,
+				62598B766097D1E97042AB9B12828152 /* NSObject+MJProperty.m */,
+				7F94484C109B20104AFD31AB28AAEE4B /* NSString+MJExtension.h */,
+				18933D4181EF7DF08B7B31AA78A73CCA /* NSString+MJExtension.m */,
+				95BF9AC76480C764588F00B8CDE5ABDE /* Support Files */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				0D9CF7ABCB74E96C5B38DC616EBDF244 /* Pods */,
+				FA438522A877EFF67D5C21E1089886F0 /* Products */,
+				F352604FAA871485A78A23520DBAD8A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8773B7051D7193D0F434AD48235893DD /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2D976F32DA6B3E8049870B54D652AA86 /* MBProgressHUD.h */,
+				A4E4E1489F6D8A2A08DFCE2EC8869F4B /* MBProgressHUD.m */,
+				373FD3836C69E9E290F28CBD21E48DCC /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		8A5A8E5EC4F657D35FB1585547463584 /* LCProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7BB8768703558FE641A4ABF279EA650B /* LCProgressHUD.h */,
+				95549F539956BC2CFEDC2FD1230FC55E /* LCProgressHUD.m */,
+				453ED928AD66E372EF91F1B12AC86018 /* Resources */,
+				C68223A2715E00DB06375344902F3059 /* Support Files */,
+			);
+			path = LCProgressHUD;
+			sourceTree = "<group>";
+		};
+		900FB4133B2670EC39792CA87EA48D0A /* Pods-AliCloudIDCardRecognitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C61BD9BDD154B99E4B2BD35A439037E5 /* Pods-AliCloudIDCardRecognitionDemo-acknowledgements.markdown */,
+				DA729416BB68EFEF1BB9A2FF5A6447D8 /* Pods-AliCloudIDCardRecognitionDemo-acknowledgements.plist */,
+				E5F6EDC272C62C93C9224EC0137BD9F5 /* Pods-AliCloudIDCardRecognitionDemo-dummy.m */,
+				E9F81CD511C8CDBA4D8CBA674AB89BB3 /* Pods-AliCloudIDCardRecognitionDemo-frameworks.sh */,
+				CEACB61A1778F9A1177DAFF0E828F499 /* Pods-AliCloudIDCardRecognitionDemo-resources.sh */,
+				7E5F52CB80A18E89CAED217C34BF7CF4 /* Pods-AliCloudIDCardRecognitionDemo.debug.xcconfig */,
+				FE98CD61C6FD752361EDF42E02C1D8F8 /* Pods-AliCloudIDCardRecognitionDemo.release.xcconfig */,
+			);
+			name = "Pods-AliCloudIDCardRecognitionDemo";
+			path = "Target Support Files/Pods-AliCloudIDCardRecognitionDemo";
+			sourceTree = "<group>";
+		};
+		95BF9AC76480C764588F00B8CDE5ABDE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC5689101AA1286559A75948E1B62F0F /* MJExtension.xcconfig */,
+				34C42AC68B6A71BB0C470E83A1B72154 /* MJExtension-dummy.m */,
+				A8B4972D92FEC07A36382B49618C6CB4 /* MJExtension-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJExtension";
+			sourceTree = "<group>";
+		};
+		ADE7577FEDC027EF85D85D6595CAC1F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0FDC662829D073AD461832936EAB09F /* Toast.xcconfig */,
+				A72B8A577F6142D83BF3A6C522668FFB /* Toast-dummy.m */,
+				D0C6A33A26F05D314B789F8820872B5F /* Toast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast";
+			sourceTree = "<group>";
+		};
+		B101A3EE3EF8A2FE42D86E623A31D83F /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				A308DD6E3AD65AA980C274DA8FC3F092 /* UIView+Toast.h */,
+				928903880FF22E1866B500C2E94C1E86 /* UIView+Toast.m */,
+				ADE7577FEDC027EF85D85D6595CAC1F1 /* Support Files */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		C68223A2715E00DB06375344902F3059 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE8D4FBC65776D6DCF0FAE06CFA89DFC /* LCProgressHUD.xcconfig */,
+				B3C69A8BD41388F0FD2317782880F665 /* LCProgressHUD-dummy.m */,
+				76C590BE568CD29E08997BA85147DC49 /* LCProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LCProgressHUD";
+			sourceTree = "<group>";
+		};
+		F352604FAA871485A78A23520DBAD8A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				900FB4133B2670EC39792CA87EA48D0A /* Pods-AliCloudIDCardRecognitionDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FA438522A877EFF67D5C21E1089886F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53E7FB5C30AE9151D3187470B68EF67 /* libLCProgressHUD.a */,
+				D03F72EAB26799CEC4A277C6ECFB93D4 /* libMBProgressHUD.a */,
+				72785215F2E2E027BF7D4989FCFC23D5 /* libMJExtension.a */,
+				7E68DD5CE0088B9E5A67C4BD585D85F6 /* libPods-AliCloudIDCardRecognitionDemo.a */,
+				0DC23468E581162C77D3A83BA6C2C6F1 /* libToast.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B604BD1371BA5C8C0E4BE86297C5AE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366C2F21C05A9E7EF31CE8753146A246 /* LCProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C036D8CA025F2AF612E1F2E26C48000C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8901FCDC69845F7ADAC74DD036F09123 /* UIView+Toast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25EE70EEBD30BDD270D648A6208E8C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2465490EA6D467DBC8BC66493DA6FFC1 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95AF419D96CDED026D79CDD7A3B3023 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37D2F9A62232C28DAF2E51CF1364F21 /* MJExtension.h in Headers */,
+				0F7EC02E944F8719A5EBDC9D29F9E99F /* MJExtensionConst.h in Headers */,
+				13695CE9BF36F26CA806C5CD2D6ADECA /* MJFoundation.h in Headers */,
+				DAF1CE8756287B465E0DE48A6133FB79 /* MJProperty.h in Headers */,
+				366A613AE07EAA35B5789F6123FB48AF /* MJPropertyKey.h in Headers */,
+				91CAC2B69903F5F3D7C25A95CA77A600 /* MJPropertyType.h in Headers */,
+				CA1EB1DB5C89E63A19ED05C55E35AF23 /* NSObject+MJClass.h in Headers */,
+				118227C43F283C87130BEE2BFABC7EBD /* NSObject+MJCoding.h in Headers */,
+				4330562BA1A299CBD37F4602B1A4C95A /* NSObject+MJKeyValue.h in Headers */,
+				C16442D25F534C602780E6FD44C6A698 /* NSObject+MJProperty.h in Headers */,
+				86D3C675657C8AFE6F73E5D0F209E990 /* NSString+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09773557381C1C85EA8AE34B82B28150 /* Pods-AliCloudIDCardRecognitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577DF60E780F1F9E939929DC5CE6D6AD /* Build configuration list for PBXNativeTarget "Pods-AliCloudIDCardRecognitionDemo" */;
+			buildPhases = (
+				83C771A219FEF7AC256989B166C84BED /* Sources */,
+				DE7FD6579E8B1801FA82A345E8A3AF11 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF5ABF1D5B0B45E6208EC96181018487 /* PBXTargetDependency */,
+				56B1EE5D2174355D070D32A1FAB3A73C /* PBXTargetDependency */,
+				3DA239A96EA9B3DFD9D978E3B3779146 /* PBXTargetDependency */,
+				CF8C98C70F7DF86DEFDF56512EF67633 /* PBXTargetDependency */,
+			);
+			name = "Pods-AliCloudIDCardRecognitionDemo";
+			productName = "Pods-AliCloudIDCardRecognitionDemo";
+			productReference = 7E68DD5CE0088B9E5A67C4BD585D85F6 /* libPods-AliCloudIDCardRecognitionDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		73002FBC7784040536D642E827BC9F45 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420CF7FC2893A95BE211AB1B5DF9340B /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				2AF2D6BAC11059EBDBF42837946B4F9C /* Sources */,
+				D43CDF1C77A88698EEBE9432F57AB2C3 /* Frameworks */,
+				D25EE70EEBD30BDD270D648A6208E8C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = D03F72EAB26799CEC4A277C6ECFB93D4 /* libMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9259AB5694DA9D415540B2FEFF9B041E /* Toast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99F4C3D151EAAD02B1900FA2302EE2D /* Build configuration list for PBXNativeTarget "Toast" */;
+			buildPhases = (
+				E31C936D571CF4B4957021C380C56153 /* Sources */,
+				73A4C655A4EE8959EF262F70F38241A7 /* Frameworks */,
+				C036D8CA025F2AF612E1F2E26C48000C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toast;
+			productName = Toast;
+			productReference = 0DC23468E581162C77D3A83BA6C2C6F1 /* libToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9EAB3E42EF957541E6C3C76D35FD008E /* MJExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCC06F4F1551987F0834A094FDCB1CA /* Build configuration list for PBXNativeTarget "MJExtension" */;
+			buildPhases = (
+				2CBFB844B4D7FEB4FF2F11CAE31CAD75 /* Sources */,
+				747242460B935FEA3E994652BD8C2E0B /* Frameworks */,
+				F95AF419D96CDED026D79CDD7A3B3023 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJExtension;
+			productName = MJExtension;
+			productReference = 72785215F2E2E027BF7D4989FCFC23D5 /* libMJExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EDBD7D72006DDADAEFD89C247C6694B4 /* LCProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F45DB441A33A65029C764ACC84085F /* Build configuration list for PBXNativeTarget "LCProgressHUD" */;
+			buildPhases = (
+				3E71E9AAAEC3942FEC62AEC65BE42DDF /* Sources */,
+				6140AEDBA050A64384B5C684335D8E0D /* Frameworks */,
+				5B604BD1371BA5C8C0E4BE86297C5AE8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10E7BAEEF612732F0CF64D381D8D9C94 /* PBXTargetDependency */,
+			);
+			name = LCProgressHUD;
+			productName = LCProgressHUD;
+			productReference = B53E7FB5C30AE9151D3187470B68EF67 /* libLCProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FA438522A877EFF67D5C21E1089886F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDBD7D72006DDADAEFD89C247C6694B4 /* LCProgressHUD */,
+				73002FBC7784040536D642E827BC9F45 /* MBProgressHUD */,
+				9EAB3E42EF957541E6C3C76D35FD008E /* MJExtension */,
+				09773557381C1C85EA8AE34B82B28150 /* Pods-AliCloudIDCardRecognitionDemo */,
+				9259AB5694DA9D415540B2FEFF9B041E /* Toast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AF2D6BAC11059EBDBF42837946B4F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FAB4F62E5D48566D90F20EA876F0242 /* MBProgressHUD-dummy.m in Sources */,
+				41C009BD0011075848D845CA99DC479C /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBFB844B4D7FEB4FF2F11CAE31CAD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC27528C64733F5C0AB4B1B6EE35E8C /* MJExtension-dummy.m in Sources */,
+				FDF30F97BDF167F0B956DED0F2C8DA69 /* MJExtensionConst.m in Sources */,
+				710DA5E9C44A1BC56CD13FC1F2D6E099 /* MJFoundation.m in Sources */,
+				A0AD231A11A54F59BC8D486946D2928B /* MJProperty.m in Sources */,
+				A60A4B3054017180C0B6C7B24E651E0A /* MJPropertyKey.m in Sources */,
+				4C61B999DF40B1B00449A7AFCBB61D5E /* MJPropertyType.m in Sources */,
+				026CCF569A2125FCB0EE8F152731259E /* NSObject+MJClass.m in Sources */,
+				CDA4DB994BAC351F4CD71EC283055E57 /* NSObject+MJCoding.m in Sources */,
+				B9C36A50069E553B4B8538E291864BB5 /* NSObject+MJKeyValue.m in Sources */,
+				CD4CF5F1389281BCE40DF30AD1945D03 /* NSObject+MJProperty.m in Sources */,
+				D1D1F11808DACCA88C55636F85A58FD8 /* NSString+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E71E9AAAEC3942FEC62AEC65BE42DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100106D74442BD33655A66838578A15B /* LCProgressHUD-dummy.m in Sources */,
+				19D9B734DF8222AF12C9137123F4D53D /* LCProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C771A219FEF7AC256989B166C84BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D1C86786A47891E207EDDDA43BFDB3 /* Pods-AliCloudIDCardRecognitionDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C936D571CF4B4957021C380C56153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF61CA85C5E7FBDA1FEAEE6CEDA1F6E6 /* Toast-dummy.m in Sources */,
+				322EBCB4F5A9E698AA605E040E35DC25 /* UIView+Toast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10E7BAEEF612732F0CF64D381D8D9C94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 73002FBC7784040536D642E827BC9F45 /* MBProgressHUD */;
+			targetProxy = 6A968862237DCB29AF2BAAAC62D17984 /* PBXContainerItemProxy */;
+		};
+		3DA239A96EA9B3DFD9D978E3B3779146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 9EAB3E42EF957541E6C3C76D35FD008E /* MJExtension */;
+			targetProxy = CEC0D547A22C28BADBACC9446F9C6F68 /* PBXContainerItemProxy */;
+		};
+		56B1EE5D2174355D070D32A1FAB3A73C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 73002FBC7784040536D642E827BC9F45 /* MBProgressHUD */;
+			targetProxy = CD40536C1E85B56A3686905F24808824 /* PBXContainerItemProxy */;
+		};
+		CF5ABF1D5B0B45E6208EC96181018487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LCProgressHUD;
+			target = EDBD7D72006DDADAEFD89C247C6694B4 /* LCProgressHUD */;
+			targetProxy = B7E1A11DD3857B67B98B413FF113919A /* PBXContainerItemProxy */;
+		};
+		CF8C98C70F7DF86DEFDF56512EF67633 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = 9259AB5694DA9D415540B2FEFF9B041E /* Toast */;
+			targetProxy = E02FBAC35371D488AA57563F7CF59F19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1076F8F9B8A22AAF1A3FCAE9E4A1BF9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC5689101AA1286559A75948E1B62F0F /* MJExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		18EC6631B15CA938B3A2B3526A5FA82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC5689101AA1286559A75948E1B62F0F /* MJExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A85DCACFEC252BAC73E2A138B5B34D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8D4FBC65776D6DCF0FAE06CFA89DFC /* LCProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LCProgressHUD/LCProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		72A8056A69B8ED91350F3322CC39E1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE98CD61C6FD752361EDF42E02C1D8F8 /* Pods-AliCloudIDCardRecognitionDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8C1EA062C28D2323DA997913C97FB87B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E5F52CB80A18E89CAED217C34BF7CF4 /* Pods-AliCloudIDCardRecognitionDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B2C996910FCF155DA77EF0079CAAD499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BC460F8C270BF31745F7BF6F2B7D34A /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D1E5550834E8F177CD51311535E09530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8D4FBC65776D6DCF0FAE06CFA89DFC /* LCProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LCProgressHUD/LCProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D2D2CB3DF80D67F4D1A797B6F9726C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FDC662829D073AD461832936EAB09F /* Toast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ED69C587DEC7B85552E8EAE01B42E990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FDC662829D073AD461832936EAB09F /* Toast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F9E72EC0515868A30934A8CC97C200AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BC460F8C270BF31745F7BF6F2B7D34A /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420CF7FC2893A95BE211AB1B5DF9340B /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C996910FCF155DA77EF0079CAAD499 /* Debug */,
+				F9E72EC0515868A30934A8CC97C200AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F45DB441A33A65029C764ACC84085F /* Build configuration list for PBXNativeTarget "LCProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A85DCACFEC252BAC73E2A138B5B34D8 /* Debug */,
+				D1E5550834E8F177CD51311535E09530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577DF60E780F1F9E939929DC5CE6D6AD /* Build configuration list for PBXNativeTarget "Pods-AliCloudIDCardRecognitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1EA062C28D2323DA997913C97FB87B /* Debug */,
+				72A8056A69B8ED91350F3322CC39E1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B99F4C3D151EAAD02B1900FA2302EE2D /* Build configuration list for PBXNativeTarget "Toast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED69C587DEC7B85552E8EAE01B42E990 /* Debug */,
+				D2D2CB3DF80D67F4D1A797B6F9726C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCC06F4F1551987F0834A094FDCB1CA /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC6631B15CA938B3A2B3526A5FA82C /* Debug */,
+				1076F8F9B8A22AAF1A3FCAE9E4A1BF9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
